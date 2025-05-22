@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checklist</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="hdr">
+      <button id="dep" onclick="listar()">Deputados</button>
+      <button id="ckl" onclick="marcar()">Checklist</button>
+      <button id="rcp" onclick="recuperar()">Recuperar</button>
+      <button id="cls" onclick="limpar()">Limpar</button>
+    </div>
+    <div id="adic">
+      <form action="#" method="dialog">
+        <input id="sala" type="number" />
+        <button type="submit" onclick="adicionar()">+</button>
+      </form> 
+      <!-- <input id="sala" type="number" />
+        <button id="enviar" type="submit" onclick="adicionar()">+</button> -->
+    </div>
+    <ul id="lista">
+      <!-- <li>
+        <span>0 -</span>
+<span class="nome"> Moisés Braz</span>
+        </li> -->
+      <!-- Itens da lista serão gerados dinamicamente -->
+    </ul>
+    <script src="script.js"></script>
+  </body>
+</html>
