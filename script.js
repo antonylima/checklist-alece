@@ -114,8 +114,8 @@ function adicionar() {
       };
 
       lista.appendChild(li);
-    } //if
-  }); //for
+    }
+  });
   sala.value = null;
   //ordenarLista(lista);
   // Converte a coleção de nós em um array
